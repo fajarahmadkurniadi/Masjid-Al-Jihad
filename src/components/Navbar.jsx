@@ -14,7 +14,7 @@ const Navbar = () => {
         <ul>
           <li onClick={() => navigate('/profil')}><a href="">Profil</a></li>
           <li onClick={() => navigate('/articlepage')}><a href="">Artikel</a></li>
-          <li onClick={() => navigate('/')}><a href="">Kontak</a></li>
+          <li onClick={() => navigate('/')}><a href="#contactuser">Kontak</a></li>
         </ul>
       </div>
       <div className="right-nav">

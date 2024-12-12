@@ -1,6 +1,10 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const Article = () => {
+
+  const navigate = useNavigate()
+
   return (
     <>
     <div className="article-body">
@@ -15,7 +19,7 @@ const Article = () => {
               </div>
               <br />
               <div className="article-image-core-explain-bottom">
-                <button>LIHAT SEMUA ARTIKEL</button>
+                <button onClick={() => navigate('/articlepage')}>LIHAT SEMUA ARTIKEL</button>
               </div>
             </div>
           </div>
@@ -24,7 +28,7 @@ const Article = () => {
           <div className="article-right-top">
             <h1>Lihat artikel</h1><h1>lainnyaa</h1>
             <br />
-            <img src="src\assets\article-main\see button.png"/>
+            <img onClick={() => navigate('/articlepage')} src="src\assets\article-main\see button.png"/>
           </div>
         </div>
       </div>

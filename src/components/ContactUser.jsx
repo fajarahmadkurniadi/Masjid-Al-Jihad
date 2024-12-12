@@ -3,7 +3,7 @@ import React from 'react'
 const ContactUser = () => {
   return (
     <>
-    <div className="contactuser-body">
+    <div id='contactuser' className="contactuser-body">
         <div className="contactuser-container">
             <div className="contactuser-left-row">
                 <h1>Hubungi kami</h1>
